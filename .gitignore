@@ -163,3 +163,5 @@ Include/
 Scripts/
 share/
 pyvenv.cfg
+img/
+*.ico
