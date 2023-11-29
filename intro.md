@@ -23,5 +23,5 @@ Successfully installed MarkupSafe-2.1.3 anyio-3.7.1 certifi-2023.7.22 colorama-0
 # Hot reload
 
 ```sh:
-flet run totd.py
+flet run todo.py
 ```
