@@ -1,6 +1,6 @@
 # 関数
 
-```python
+```python:
 def add(a: int, b: int) -> int:
     """Add a + b.
 
@@ -25,7 +25,7 @@ def add(a: int, b: int) -> int:
 
 ## クラス定義
 
-```python
+```python:
 class User:
     def __init__(self, first_name: str, last_name: str, age: int) -> None:
         self.first_name = first_name
@@ -38,7 +38,7 @@ class User:
 
 ## デコレータ
 
-```python
+```python:
 @staticmethod
 def f(arg):
     ...
@@ -46,7 +46,7 @@ def f(arg):
 
 ## プロパティ
 
-```python
+```python:
 class Potato:
     def __init__(self):
         self._price = None
@@ -66,7 +66,7 @@ class Potato:
 
 ## データクラス
 
-```python
+```python:
 from dataclasses import dataclass
 
 
@@ -78,7 +78,7 @@ class User:
 
 ## 継承
 
-```python
+```python:
 class VipUser(User):
     def discount(self) -> float:
         percent = 10.0
